@@ -1,0 +1,78 @@
+ /* Main background gradient */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #A1D6B2, #E8B86D);
+    font-family: Arial, sans-serif;
+}
+.logo {
+    font-size:30px ;
+    font-style: italic;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px; 
+    height: auto;
+        
+}
+/* Login container styling */
+.t_login {
+    background-color: #CEDF9F;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Form fields and labels */
+h2 {
+    text-align: center;
+    color: #333333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #E8B86D;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F1F3C2;
+    color: black;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .login-container {
+        padding: 20px;
+    }
+}
+
+/* Link style */
+.loginlink {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ 
+
